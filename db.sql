@@ -1,0 +1,9 @@
+CREATE DATABASE m7_d3_db_always_music;
+
+CREATE TABLE estudiantes (
+	id SERIAL PRIMARY KEY,
+	nombre VARCHAR(50) NOT NULL,
+	rut VARCHAR(13) NOT NULL,
+	curso VARCHAR(50) NOT NULL,
+	nivel INT NOT NULL
+);
